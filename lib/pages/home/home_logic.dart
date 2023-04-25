@@ -29,14 +29,6 @@ class HomeLogic extends GetxController {
     menuList.add(menu_safelty);
     menuList.add(menu_dian);
     menuList.add(menu_system);
-
-    // DBService().insertData();
-    // List<Person> persionList = await DBService().sqlData() as List<Person>;
-    // var str = await persionList[0].name;
-    // var size = await persionList.length;
-    // LogD("数据库查询：$str  长度： $size");
-
-    // testSqflite();
   }
 
   @override

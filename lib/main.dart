@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_supernote/pages/home/home_view.dart';
 import 'package:flutter_supernote/res/string.dart';
 import 'package:flutter_supernote/routes/routes.dart';
 import 'package:get/get.dart';
+import 'package:logger/logger.dart';
 void main() => runApp(MyApp("Hello World"));
 class MyApp extends StatelessWidget {
   final String content;
