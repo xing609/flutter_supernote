@@ -1,0 +1,49 @@
+name: flutter_supernote
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+#version: 1.0.0+1
+version: 1.0.0
+environment:
+  #  sdk: '>=3.0.0-422.0.dev <4.0.0'
+  sdk: '>=2.17.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  #普通日志打印框架  https://github.com/leisim/logger
+  logger: ^1.1.0
+  # 网络请求库 https://github.com/flutterchina/dio
+  dio: ^5.1.1
+  #数据json解析（官方框架）
+#  json_annotation: ^4.0.1
+  #GetX状态管理框架 https://pub.flutter-io.cn/packages/get
+  get: ^4.6.1
+  #toast https://pub.flutter-io.cn/packages/fluttertoast
+  #数据库
+  fluttertoast: ^8.0.8
+#  floor: ^1.4.1
+
+  #获取sdcard 目录时用到
+  path_provider: ^2.0.5
+  #join 字符串拼接用到
+  path: ^1.8.0
+  sqflite: ^2.0.0 # 添加 sqflite 依赖
+  #shared_preferences数据持久化
+  shared_preferences: ^2.0.8
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.1.2
+#  json_serializable: ^6.1.5
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/loading/
+    - assets/images/
+flutter_intl:
+  enabled: true
